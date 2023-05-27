@@ -6,11 +6,54 @@
 #form-container{
     display: flex;
     min-height: 100vh;
+    flex-direction: column;
     justify-content: center;
     align-items: center;
+    position: relative;
 }
 
-input{
+#idp-login-logo{
+    width: 5em;
+}
+
+#login-symbol-container{
+    margin-bottom: 1em;
+}
+
+#login-symbol-container,#password-symbol-container{
+    border-bottom: solid 2px rgba(80,80,80,.5);
+}
+
+#login-form input{
     border: none;
     outline: none;
+    font-size: 1em;
+}
+
+.background-select{
+	width: 100%;
+	height: 100%;
+	top: 0;
+	right: 0;
+	position: absolute;
+	z-index: -1;
+	background: linear-gradient(40deg,rgba(16, 18, 176, 0.9)-5%,white 40% 70%,#03CCEE)
+}
+
+#login-symbol{
+    width: 1em;
+    position: relative;
+    top: .25em;
+}
+
+#password-symbol{
+    width: 1em;
+    position: relative;
+    top: .25em;
+}
+
+
+
+#send-button{
+    margin-top: 1em;
 }

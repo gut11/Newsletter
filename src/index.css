@@ -1,13 +1,14 @@
 :root {
   font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
 
-  background-color: #242424;
+  --color-idp-700: #0f2d45;
+  --color-black-700: #242424;
+  --color-idp-300: #2565AF;
 
 }
 
 a {
   font-weight: 500;
-  color: #646cff;
   text-decoration: inherit;
 }
 
@@ -27,7 +28,6 @@ button {
   font-size: 1em;
   font-weight: 500;
   font-family: inherit;
-  background-color: #1a1a1a;
   cursor: pointer;
   transition: border-color 0.25s;
 }

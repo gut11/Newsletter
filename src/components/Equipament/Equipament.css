@@ -1,0 +1,24 @@
+.notebook-svg{
+    width: 2.5em;
+}
+
+.name{
+    display: flex;
+    flex-direction: row;
+}
+
+.category{
+    display: flex;
+    flex-direction: row;
+}
+
+.product{
+    display: flex;
+    flex-direction: row;
+}
+
+
+
+.collum-name{
+    width: 33%;
+}

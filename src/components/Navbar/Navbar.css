@@ -1,0 +1,29 @@
+#nav-container{
+    height: 2em;
+    background-color: var(--color-idp-300);
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    box-sizing: border-box;
+    padding: 0 3em;
+    text-align: center;
+}
+
+li{
+    margin: 0 0 0 1em;
+    padding: 0;
+    list-style-type: none;
+    color: white;
+}
+
+li:hover{
+    color: var(--color-idp-700);
+}
+
+ul{
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+    padding: 0;
+}
