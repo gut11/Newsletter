@@ -1,6 +1,6 @@
 #nav-container{
     height: 2em;
-    background-color: var(--color-idp-300);
+    background-color: var(--color-idp-700);
     width: 100%;
     display: flex;
     flex-direction: row;
@@ -17,8 +17,12 @@ li{
     color: white;
 }
 
+.link{
+    cursor: pointer;
+}
+
 li:hover{
-    color: var(--color-idp-700);
+    color: var(--color-idp-300);
 }
 
 ul{

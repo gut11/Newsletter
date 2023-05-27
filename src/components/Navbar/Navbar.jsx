@@ -15,15 +15,18 @@ const Navbar = _ => {
             setCurrentSection("Newsletter")
         else if(section == "events")
             setCurrentSection("Events")
+        else if(section == "perfil")
+            setCurrentSection("Perfil")
     }
 
     return (
         <div id="nav-container">
             <img src="/IDP-logo-white.svg" alt="idp-logo"></img>
             <ul>
-                <a onClick={_ => changeCurrentSection("equipaments")}><li>Equipamentos</li></a>
-                <a onClick={_ => changeCurrentSection("newsletter")}><li>Newsletter</li></a>
-                <a onClick={_ => changeCurrentSection("events")}><li>Eventos</li></a>
+                <a className="link" onClick={_ => changeCurrentSection("equipaments")}><li>Equipamentos</li></a>
+                <a className="link" onClick={_ => changeCurrentSection("newsletter")}><li>Newsletter</li></a>
+                <a className="link" onClick={_ => changeCurrentSection("events")}><li>Eventos</li></a>
+                <a className="link" onClick={_ => changeCurrentSection("perfil")}><li>Perfil</li></a>
             </ul>
         </div>
     )
