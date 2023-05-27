@@ -1,0 +1,16 @@
+#login-form{
+    display: flex;
+    flex-direction: column;
+}
+
+#form-container{
+    display: flex;
+    min-height: 100vh;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    border: none;
+    outline: none;
+}
