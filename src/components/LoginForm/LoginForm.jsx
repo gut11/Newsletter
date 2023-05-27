@@ -2,7 +2,7 @@ import { useContext, useState } from "react"
 import "./LoginForm.css"
 import { CurrentSection } from "../../App";
 
-
+export const backend = "192.168.49.156:8080"
 
 
 const LoginForm = _ => {
@@ -12,7 +12,16 @@ const LoginForm = _ => {
 
     const submitForm = e => {
         e.preventDefault();
-        setCurrentSection("Newsletter")
+        const loginData = {ra,password}
+        fetch(backend,{
+            method: "POST",
+            headers: {
+              "Content-Type": "application/json",
+            },
+            body: JSON.stringify(loginData),
+          }).then(response => {
+            
+          })
     }
 
     return (

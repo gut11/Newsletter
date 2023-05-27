@@ -1,10 +1,11 @@
-.notebook-svg{
-    width: 2.5em;
+.equipaments-svg{
+    width: 2em;
 }
 
 .name{
     display: flex;
     flex-direction: row;
+    gap: 10%;
 }
 
 .category{
@@ -17,7 +18,21 @@
     flex-direction: row;
 }
 
+.collum-category{
+    width: 33%;
+}
 
+.collum-qtd{
+    width: 33%;
+}
+
+.equipament-container{
+    display: flex;
+    flex-direction: row;
+    box-sizing: border-box;
+    padding: 0 2em;
+    cursor: pointer;
+}
 
 .collum-name{
     width: 33%;

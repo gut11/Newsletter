@@ -1,4 +1,35 @@
 #equipaments-collum-top{
     display: flex;
     flex-direction: row;
+    padding: 0 2em;
+}
+
+#equipaments-container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+}
+
+#equipaments-table{
+    width: 100%;
+    box-sizing: border-box;
+}
+
+#black-screen{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,0,0,0.5);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#current-equipament-container{
+    background-color: white;
+}
+
+#current-equipament-container h1{
+    margin: 0;
 }
